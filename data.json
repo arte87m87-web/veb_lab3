@@ -1,0 +1,96 @@
+{
+  "game": "Dungeon Legends",
+  "exportedAt": "2026-09-14T18:20:00Z",
+  "characters": [
+    {
+      "id": "char-1001",
+      "name": "Eldrin Dawnbringer",
+      "class": "paladin",
+      "level": 14,
+      "experience": 45200,
+      "isAlive": true,
+      "guild": "Order of Dawn",
+      "stats": {
+        "strength": 18,
+        "agility": 11,
+        "intellect": 13,
+        "health": 240,
+        "mana": 90
+      },
+      "inventory": [
+        {
+          "itemId": "wpn-014",
+          "name": "Sword of Dawn",
+          "type": "weapon",
+          "quantity": 1,
+          "weight": 3.5,
+          "equipped": true,
+          "damage": 42,
+          "durability": 87
+        },
+        {
+          "itemId": "arm-003",
+          "name": "Plate Chestguard",
+          "type": "armor",
+          "quantity": 1,
+          "weight": 12.0,
+          "equipped": true,
+          "armor": 35,
+          "durability": 61
+        },
+        {
+          "itemId": "pot-021",
+          "name": "Greater Healing Potion",
+          "type": "consumable",
+          "quantity": 5,
+          "weight": 0.3,
+          "equipped": false,
+          "durability": null
+        }
+      ],
+      "skills": [
+        { "code": "holyStrike", "name": "Holy Strike", "rank": 3, "manaCost": 20 },
+        { "code": "shieldWall", "name": "Shield Wall", "rank": 2, "manaCost": 15 }
+      ]
+    },
+    {
+      "id": "char-1002",
+      "name": "Sylra Nightstep",
+      "class": "rogue",
+      "level": 9,
+      "experience": 18750,
+      "isAlive": false,
+      "guild": null,
+      "stats": {
+        "strength": 10,
+        "agility": 19,
+        "intellect": 12,
+        "health": 130,
+        "mana": 40
+      },
+      "inventory": [
+        {
+          "itemId": "wpn-007",
+          "name": "Twin Daggers",
+          "type": "weapon",
+          "quantity": 2,
+          "weight": 1.2,
+          "equipped": true,
+          "damage": 17,
+          "durability": 44
+        },
+        {
+          "itemId": "qst-002",
+          "name": "Sealed Letter to the Baron",
+          "type": "quest",
+          "quantity": 1,
+          "weight": 0.05,
+          "equipped": false
+        }
+      ],
+      "skills": [
+        { "code": "backstab", "name": "Backstab", "rank": 4, "manaCost": 12 }
+      ]
+    }
+  ]
+}
